@@ -1,0 +1,30 @@
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu
+{
+    background-image: linear-gradient(to right, black, grey);
+    margin: 0px;
+    font-weight: bold;
+}
+
+.linha_menu
+{
+    display: inline-flex;
+    padding: 10px;
+    color: white;
+}
+
+.top
+{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: aqua;
+}
