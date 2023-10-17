@@ -1,0 +1,277 @@
+body
+{
+    background-color: #b2a5f8;
+    background-image: url("./images/space.jpg");
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu
+{
+    text-align: center;
+    padding-top: 15px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.linha_menu
+{
+    display: inline-flex;
+    padding: 10px;
+    color: white;
+}
+
+.top
+{
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    color: white;
+    background-color: #7422c2;
+}
+
+main
+{
+    width: 75%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+h1
+{
+    color: #333;
+}
+
+p
+{
+    display: inline-block;
+    width: 30%;
+    color: #666;
+}
+
+label, input
+{
+    display: inline-block;
+    margin: 0px 40px;
+    margin-bottom: 5px;
+}
+
+label
+{
+    width: calc(40% - 80px);
+    font-weight: bold;
+}
+
+input
+{
+    width: calc(60% - 110px);
+    padding: 10px;
+    border: 1px solid #b2a5f8;
+    border-radius: 5px;
+}
+
+.botoes_form
+{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.botoes_form button
+{
+    border: 0px;
+    color: white;
+    padding: 10px 20px;
+}
+
+.roxo
+{
+    background-color: #7422c2;
+}
+
+.roxo_claro
+{
+    background-color: #a546ffc9;
+}
+
+.bot_log
+{
+    text-align: right;
+    margin: 0px;
+}
+
+.bot_log input
+{
+    width: calc(50% - 200px);
+    padding: 10px;
+    color: white;
+    background-color: #7422c2;
+    border: 1px solid #a546ffc9;
+    border-radius: 5px;
+    min-width: 70px;
+}
+
+.bot_gerais
+{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.bot_gerais a
+{   
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    width: auto;
+    padding: 10px 20px;
+    color: white;
+    background-color: #7422c2;
+    border: 1px solid #a546ffc9;
+    border-radius: 5px;
+    min-width: 70px;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th, td
+{
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+
+thead
+{
+    color: white;
+    background-color: #7422c2;
+}
+
+.cpf
+{
+    background-color: #a546ffc9;
+}
+
+.telefone
+{
+    background-color: #a546ffc9;
+}
+
+.data
+{
+    background-color: #a546ffc9;
+}
+
+.acess
+{
+    background-color: #a546ffc9;
+}
+
+.formata
+{
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #333;
+    background-color: #e9e6ff;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+.bordinha
+{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #444;
+}
+
+.pos
+{
+    display: inline-block;
+    width: clamp(300px, 45%, 800px);
+    padding: 0px;
+    margin: 0px;
+}
+
+.direita
+{
+    text-align: right;
+}
+
+#form_login input
+{
+    margin: 5px;
+    margin-left: 20px;
+}
+
+#login
+{
+    text-align: center;
+}
+
+#conteudo
+{
+    text-align: center;
+}
+
+#grid
+{
+    text-align: center;
+}
+
+#relatorio
+{
+    text-align: center;
+}
+
+#form
+{
+    text-align: center;
+}
+
+#p_login
+{
+    background-image: url("./images/foguete.jpg");
+    color: #ddd;
+}
+
+#p_grid
+{
+    background-image: url("./images/sistemasolar.jpg");
+    color: #ddd;
+}
+
+#p_relatorio
+{
+    background-image: url("./images/galaxia.jpg");
+    color: #ddd;
+}
+
+#p_form
+{
+    background-image: url("./images/atronauta.jpg");
+    color: #ddd;
+}
+
+#p_conteudo
+{
+    background-image: url("./images/big-bang.jpg");
+    color: #ccc;
+}
+
+#nome_login
+{
+    margin-right: 10px;
+}
